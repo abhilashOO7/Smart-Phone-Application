@@ -1,4 +1,4 @@
-# Smart-Phone-Application
+# Smart-Phone-Application #
 
 This is a SmartPhone Shop where you can register/log in, view the smartphones, and add/remove them from the cart at your convenience
 Firstly open both the **back-end** and **front-end** folders
