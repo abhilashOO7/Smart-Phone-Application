@@ -1,0 +1,102 @@
+/* Main CSS File  */
+
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainPink: #ffe6e6da;
+  --mainDark: #232528;
+  --mainBlack: #000;
+  --mainYellow: #ffa400;
+  --mainDarkPink: #c7928af8;
+  --mainRed: #af3927f8;
+  --mainLightPink: #ff7575;
+  --mainOchre: #c5a66b;
+}
+
+body {
+  background: var(--mainPink) !important;
+  color: var(--mainDark) !important;
+}
+.text-title {
+  font-family: "Calibri";
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+.navbar {
+  background: var(--mainDarkPink) !important;
+  justify-content: flex-start !important;
+}
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainBlack);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+
+#searchbar
+{
+  border-radius: 0.5rem; 
+  border-left: 2px;
+  border-color: #af3927f8;
+}
+#searchbar:hover {
+  color: #000000;
+}
+
+#footer
+{
+  display: flex;
+  background: #c7928af8;
+  color: #000000;
+  justify-content: space-evenly;
+  column-gap: 2vw;
+  margin-top: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+  margin-bottom: 0.1vw;
+}
+
+#footer ul li
+{
+  color: #060549;
+}
+
+#login_page
+{
+  background: #c7928af8;
+  color: #000000;
+  justify-content: center;
+  column-gap: 8vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  display: flex;
+}
+
+#cards
+{
+  background-color: #ffe6e6da;
+}
+
+#signup
+{
+  background-color: #ffe6e6da;
+  height: min-content;
+  width: max-content;
+  margin-top: 13vw;
+}
